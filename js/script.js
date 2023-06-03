@@ -13,7 +13,8 @@ btn.addEventListener('click', () => {
 });
 
 inputField.addEventListener('blur', () => {
-  if (inputField.value === '') {
+  const email = inputField.value;
+  if (!validateEmail(email)) {
     errorMessage.classList.remove('hidden');
   } else {
     errorMessage.classList.add('hidden');
