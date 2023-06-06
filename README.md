@@ -33,7 +33,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [https://github.com/lawlawson/manage-landing-page](https://github.com/lawlawson/manage-landing-page)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: [https://celebrated-biscochitos-f95934.netlify.app/](https://celebrated-biscochitos-f95934.netlify.app/)
 
 ## My process
 
