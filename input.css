@@ -68,4 +68,28 @@ body {
   .open .hamburger-bottom {
     transform: rotate(-45deg) translateY(6px) translate(-6px);
   }
+
+  .grabbing {
+    cursor: grabbing;
+  }
+
+  .dot--active {
+    background-color: theme('colors.brightRed');
+  }
+
+  .dot {
+    display: inline-block;
+    width: 0.5rem;
+    height: 0.5rem;
+    border: 1px solid theme('colors.brightRed');
+    border-radius: 100%;
+  }
+
+  .dot + .dot {
+    margin-left: 0.3rem;
+  }
+
+  .swiper-pagination {
+    position: static !important;
+  }
 }

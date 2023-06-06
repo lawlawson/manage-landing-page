@@ -1,6 +1,6 @@
 # Frontend Mentor - Manage landing page solution
 
-This is a solution to the [Manage landing page challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/manage-landing-page-SLXqC6P5). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
+This is a solution to the [Manage landing page challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/manage-landing-page-SLXqC6P5). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
 
 ## Table of contents
 
@@ -12,7 +12,6 @@ This is a solution to the [Manage landing page challenge on Frontend Mentor](htt
   - [Built with](#built-with)
   - [What I learned](#what-i-learned)
 - [Author](#author)
-
 
 ## Overview
 
@@ -44,6 +43,7 @@ Users should be able to:
 - CSS custom properties
 - Tailwind CSS
 - JavaScript
+- SwiperJS
 - Mobile-first workflow
 
 ### What I learned
@@ -55,5 +55,3 @@ The main purpose of this project was to dive into learning how to use Tailwind C
 - Website - [Add your name here](https://www.your-site.com)
 - Frontend Mentor - [@lawlawson](https://www.frontendmentor.io/profile/lawlawson)
 - Twitter - [@lawsoncodes](https://www.twitter.com/lawsoncodes)
-
-
