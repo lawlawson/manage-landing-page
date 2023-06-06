@@ -39,6 +39,7 @@ btn.addEventListener('click', () => {
 
 inputField.addEventListener('blur', () => {
   const email = inputField.value;
+
   if (!validateEmail(email)) {
     errorMessage.classList.remove('hidden');
   } else {
@@ -47,7 +48,8 @@ inputField.addEventListener('blur', () => {
 });
 
 function validateEmail(email) {
-  const emailRegex = /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/;
+  const emailRegex =
+    /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$^\S+@\S+\.\S+$/;
   return emailRegex.test(email);
 }
 
