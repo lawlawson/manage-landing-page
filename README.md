@@ -28,11 +28,11 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshot.jpg)
+![](./images/screenshot.png)
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Solution URL: [https://github.com/lawlawson/manage-landing-page](https://github.com/lawlawson/manage-landing-page)
 - Live Site URL: [Add live site URL here](https://your-live-site-url.com)
 
 ## My process
@@ -43,15 +43,15 @@ Users should be able to:
 - CSS custom properties
 - Tailwind CSS
 - JavaScript
-- SwiperJS
+- Swiper
 - Mobile-first workflow
 
 ### What I learned
 
-The main purpose of this project was to dive into learning how to use Tailwind CSS by creating a responsive mobile first interactive landing page.
+The main purpose of this project was to dive into learning how to use Tailwind CSS by creating a responsive mobile first interactive landing page. I also had the opportunity to work with Swiper library to create a carousel for the testimonial section.
 
 ## Author
 
-- Website - [Add your name here](https://www.your-site.com)
+- Website - [https://lawlawson.dev/](https://lawlawson.dev/)
 - Frontend Mentor - [@lawlawson](https://www.frontendmentor.io/profile/lawlawson)
 - Twitter - [@lawsoncodes](https://www.twitter.com/lawsoncodes)
