@@ -14,7 +14,7 @@
     <title>Manage Landing Page</title>
   </head>
   <body>
-    <nav class="relative container mx-auto p-6" role="navigation">
+    <nav class="relative container mx-auto p-6">
       <div class="flex items-center justify-between">
         <div class="div pt-2">
           <img src="images/logo.svg" alt="" />
@@ -54,7 +54,7 @@
       </div>
     </nav>
 
-    <main id="hero" role="main">
+    <main id="hero">
       <div
         class="container flex flex-col-reverse md:flex-row items-center px-6 mx-auto mt-10 space-y-0 md:space-y-0"
       >
@@ -81,7 +81,7 @@
         </div>
       </div>
     </main>
-    <div id="features" role="region">
+    <div id="features">
       <div
         class="container flex flex-col px-4 mx-auto mt-10 space-y-12 md:space-y-0 md:flex-row"
       >
@@ -182,10 +182,14 @@
       </div>
     </div>
 
-    <div id="testimonials" role="region">
+    <div id="testimonials">
       <div class="max-w-6xl px-5 mx-auto mt-32 text-center">
         <h3 class="text-4xl font-bold text-center">What they've said</h3>
-        <div class="swiper select-none" role="slider">
+        <div
+          class="swiper select-none"
+          aria-label="slider"
+          role="display images"
+        >
           <div class="swiper-wrapper rounded-xl mt-24 md:flex md:space-x-6">
             <div
               class="swiper-slide flex flex-col items-center p-6 space-y-6 rounded-lg bg-veryLightGray md:flex-1"
@@ -251,7 +255,7 @@
         </div>
 
         <div class="swiper-pagination md:hidden"></div>
-        <div class="my-16" role="button">
+        <div class="my-16">
           <a
             href="#"
             class="p-3 px-6 pt-2 text-white bg-brightRed rounded-full baseline hover:bg-brightRedLight"
@@ -260,7 +264,7 @@
         </div>
       </div>
     </div>
-    <div id="cta" class="bg-brightRed" role="region">
+    <div id="cta" class="bg-brightRed">
       <div
         class="container flex flex-col items-center justify-between px-y py-24 mx-auto space-y-12 md:py-12 md:flex-row md:space-y-0"
       >
